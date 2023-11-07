@@ -30,7 +30,7 @@ flowchart TD
     B ---->|No| E[Fin]
  ```
 
-![img](https://github.com/theintrokey/ies-serpis-1smx_2022/assets/15022199/d2559cd9-b577-40d0-978c-00acafdff9d1)
+![img](https://github.com/theintrokey/)
 
 
 En este organigrama se muestra un condicional simple, si se cumple la
@@ -48,7 +48,7 @@ sentencias 2
 }
 fin si
 ```
-![image](https://github.com/theintrokey/ies-serpis-1smx_2022/assets/15022199/5f9fc6d3-7b61-4254-a954-5b42eb80e982)
+![img](https://github.com/theintrokey/)
 
 
 En este organigrama se muestra un condicional donde, si se cumple la
@@ -70,7 +70,7 @@ sentencias 3
 fin si
 ```
 
-![image](https://github.com/theintrokey/ies-serpis-1smx_2022/assets/15022199/1fe86815-e1d8-417d-ab5f-ecbf926f80b9)
+![img](https://github.com/theintrokey/)
 
 En este organigrama se muestra un condicional donde, si se cumple la
 condición, se ejecutan las sentencias 1. Si la condición no se cumple, se comprueba
@@ -100,7 +100,7 @@ fin si
 fin programa
 ```
 
-![image](https://github.com/theintrokey/ies-serpis-1smx_2022/assets/15022199/90ef03c2-55ca-442d-8491-46de3ff0c407)
+![img](https://github.com/theintrokey/)
 
 
 Este organigrama muestra un programa para encontrar el mayor de tres
@@ -121,7 +121,7 @@ sentencias
 }
 ```
 
-![image](https://github.com/theintrokey/thintrokey/diagramas-de-flujo/238418.png)
+![img](https://github.com/theintrokey/)
 
 ### Bucle do while
 Do while es una estructura de control parecida al while pero que permite
@@ -133,7 +133,7 @@ sentencias
 } while (condición);
 ```
 
-![image](https://github.com/theintrokey/ies-serpis-1smx_2022/assets/15022199/5536e95f-0516-4fc1-95c3-116011ed1e49)
+![img](https://github.com/theintrokey/)
 
 
 ### Bucle for
@@ -146,7 +146,7 @@ sentencias
 }
 ```
 
-![image](https://github.com/theintrokey/ies-serpis-1smx_2022/assets/15022199/0314a0b2-8a0e-4f2e-b6d0-4d030fbae31d)
+![img](https://github.com/theintrokey/)
 
 
 
