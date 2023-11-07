@@ -30,7 +30,7 @@ flowchart TD
     B ---->|No| E[Fin]
  ```
 
-![img](https://github.com/theintrokey/diagramas-de-flujo/dia_01.png)
+![img](./theintrokey/diagramas-de-flujo/dia_01.png)
 
 
 En este organigrama se muestra un condicional simple, si se cumple la
