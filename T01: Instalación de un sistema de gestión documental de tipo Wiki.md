@@ -10,9 +10,9 @@ Parte 1: Instalación de Dokuwiki en tu MV Ubuntu Server de Azure
 
 1. Instala las librerías necesarias de php:
 
-'''
+```
 sudo apt install php-gd php-xml php-json
-...
+```
 
 3. Descarga e instala dokuwiki:
 
