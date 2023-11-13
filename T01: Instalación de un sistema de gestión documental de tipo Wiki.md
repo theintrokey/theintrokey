@@ -124,8 +124,8 @@ Una vez realizada la configuración inicial, haz login en dokuwiki con el usuari
 Entrega
 - Parte 1: Adjunta varias capturas del proceso de instalación.
 - Parte 2:
-  - URL de tu página
-  - Capturas del contenido del wiki (página principal y algún personaje, plantilla utilizada en Parámetros de Configuración, usuario creado y configuración del plugin.
+         - URL de tu página
+         - Capturas del contenido del wiki (página principal y algún personaje, plantilla utilizada en Parámetros de Configuración, usuario creado y configuración del plugin.
 
 ![image](https://github.com/theintrokey/theintrokey/assets/15022199/98bafdbb-7d12-445d-a5be-5559bc8cdc4a)
 ![image](https://github.com/theintrokey/theintrokey/assets/15022199/15005043-dac5-416e-9846-b5ad5ba6ee2a)
