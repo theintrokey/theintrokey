@@ -1,7 +1,4 @@
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
-
-T01: Instalación de un sistema de gestión documental de tipo Wiki
+# T01: Instalación de un sistema de gestión documental de tipo Wiki
 
 DokuWiki es un sistema de Wiki de uso sencillo, orientado a crear documentación de
 cualquier tipo dentro de grupos de desarrollo, grupos de trabajo y pequeñas empresas. Su
@@ -9,7 +6,7 @@ sintaxis es simple y potente, facilita la creación de textos estructurados, y p
 archivos generados sean legibles incluso fuera del Wiki. Todos los datos se guardan en
 archivos de texto plano, de tal forma que no necesita una base de datos.
 
-Parte 1: Instalación de Dokuwiki en tu MV Ubuntu Server de Azure
+## Parte 1: Instalación de Dokuwiki en tu MV Ubuntu Server de Azure
 
 1. Instala las librerías necesarias de php:
 ```
@@ -110,7 +107,7 @@ Realiza la configuración inicial:
 
 Una vez realizada la configuración inicial, haz login en dokuwiki con el usuario creado, y entrando en la opción de administración arriba a la derecha de la página (Admin Configuration Settings), puedes cambiar el idioma de la interfaz al que prefieras
 
-Parte 2: Generación de contenido y administración del sitio web
+## Parte 2: Generación de contenido y administración del sitio web
 
 1. El contenido versará sobre la serie ‘Stranger Things’. La estructura del wiki debe ser la siguiente:
 
@@ -127,8 +124,8 @@ Parte 2: Generación de contenido y administración del sitio web
 Entrega
 - Parte 1: Adjunta varias capturas del proceso de instalación.
 - Parte 2:
- - URL de tu página
- - Capturas del contenido del wiki (página principal y algún personaje, plantilla utilizada en Parámetros de Configuración, usuario creado y configuración del plugin.
+  - URL de tu página
+  - Capturas del contenido del wiki (página principal y algún personaje, plantilla utilizada en Parámetros de Configuración, usuario creado y configuración del plugin.
 
 ![image](https://github.com/theintrokey/theintrokey/assets/15022199/98bafdbb-7d12-445d-a5be-5559bc8cdc4a)
 ![image](https://github.com/theintrokey/theintrokey/assets/15022199/15005043-dac5-416e-9846-b5ad5ba6ee2a)
