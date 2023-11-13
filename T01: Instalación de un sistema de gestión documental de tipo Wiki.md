@@ -114,33 +114,21 @@ Parte 2: Generación de contenido y administración del sitio web
 
 1. El contenido versará sobre la serie ‘Stranger Things’. La estructura del wiki debe ser la siguiente:
 
-<u>mispeled</u>
-<span style="text-decoration:underline">this</span>
 
-◦ La <ins>página de comienzo</ins> debe tener como título: “Stranger Things”, y debajo una descripción con el argumento de la serie
-◦ A continuación debe aparecer un título “Personajes principales”, y debajo una lista de tipo viñeta con los <u>principales personajes de Stranger Things</u> (no es necesario que pongas todos los personajes, sólo los que te parezcan más importantes o te
-gusten más) . Cada elemento de la lista será un enlace a una nueva página de la wiki a la descripción de cada personaje.
-◦ En las páginas de los personajes, debe aparecer como título el nombre del personaje, una foto, y una breve descripción del mismo. Al final de la página debe haber un enlace para volver a la página principal.
-◦ Añade una barra lateral (sidebar) para poder navegar por los distintos personajes.
+◦ La _página de comienzo_ debe tener como título: “Stranger Things”, y debajo una descripción con el argumento de la serie
+◦ A continuación debe aparecer un título “Personajes principales”, y debajo una lista de tipo viñeta con los _principales personajes de Stranger Things_ (no es necesario que pongas todos los personajes, sólo los que te parezcan más importantes o te gusten más) . Cada elemento de la lista será un enlace a una nueva página de la wiki a la descripción de cada personaje.
+◦ En las páginas de los personajes, debe aparecer como título el _nombre_ del personaje, una _foto_, y una breve _descripción_ del mismo. Al final de la página debe haber un _enlace_ para volver a la página principal.
+◦ Añade una _barra lateral_ (sidebar) para poder navegar por los distintos personajes.
 
-3. Instala una nueva plantilla. Una vez creado el contenido, desde el Administrador de
-Extensiones busca e instala una plantilla que soporte barra lateral (sidebar). Para
-aplicar la nueva plantilla, tendrás que indicarlo en los parámetros de configuración.
-4. Crear un usuario que pertenezca al grupo admin. Facilítale a un compañero dirección
-de tu máquina ubuntu, el nombre de usuario creado y la contraseña, y pídele que se
-conecte a tu wiki y añada una nueva página de un personaje que no tengas. Haz tú lo
-mismo con su wiki.
-5. Instala un plugin de CAPTCHA. Configúralo para que cuando un usuario se conecte a
-la wiki con usuario y contraseña, le pida además que resuelva una sencilla operación
-matemática.
+3. Instala una nueva **plantilla**. Una vez creado el contenido, desde el Administrador de Extensiones busca e instala una plantilla que soporte barra lateral (sidebar). Para aplicar la nueva plantilla, tendrás que indicarlo en los _parámetros de configuración_.
+4. Crear un usuario que pertenezca al grupo admin. Facilítale a un compañero dirección de tu máquina ubuntu, el nombre de usuario creado y la contraseña, y pídele que se conecte a tu wiki y _añada una nueva página_ de un personaje que no tengas. Haz tú lo mismo con su wiki.
+5. Instala un plugin de CAPTCHA. Configúralo para que cuando un usuario se conecte a la wiki con usuario y contraseña, le pida además que resuelva una sencilla _operación matemática_.
 
 Entrega
-• Parte 1: Adjunta varias capturas del proceso de instalación.
-• Parte 2:
-◦ URL de tu página
-◦ Capturas del contenido del wiki (página principal y algún personaje, plantilla
-utilizada en Parámetros de Configuración, usuario creado y configuración del
-plugin.
+* Parte 1: Adjunta varias capturas del proceso de instalación.
+* Parte 2:
+ - URL de tu página
+ - Capturas del contenido del wiki (página principal y algún personaje, plantilla utilizada en Parámetros de Configuración, usuario creado y configuración del plugin.
 
 ![image](https://github.com/theintrokey/theintrokey/assets/15022199/98bafdbb-7d12-445d-a5be-5559bc8cdc4a)
 ![image](https://github.com/theintrokey/theintrokey/assets/15022199/15005043-dac5-416e-9846-b5ad5ba6ee2a)
