@@ -37,26 +37,29 @@ Copia en el fichero el siguiente contenido:
  ServerName smrserverjcm
  DocumentRoot /var/www/html/dokuwiki
  <Directory ~ "/var/www/html/dokuwiki/(bin/|conf/|data/|inc/)">
- <IfModule mod_authz_core.c>
- AllowOverride All
- Require all denied
- </IfModule>
- <IfModule !mod_authz_core.c>
- Order allow,deny
-Deny from all
- </IfModule>
+  <IfModule mod_authz_core.c>
+   AllowOverride All
+   Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+   Order allow,deny
+   Deny from all
+  </IfModule>
  </Directory>
  ErrorLog /var/log/apache2/dokuwiki_error.log
  CustomLog /var/log/apache2/dokuwiki_access.log combined
 </VirtualHost>
 ```
 
-En ServerName debes poner el nombre de tu servidor (el que devuelve el comando
-hostname).Guarda el fichero y sal del editor nano.
+En ServerName debes poner el nombre de tu servidor (el que devuelve el comando hostname).Guarda el fichero y sal del editor nano.
+
 Renombra los ficheros .htaccess de la web de dokuwiki:
-sudo cp /var/www/html/dokuwiki/.htaccess{.dist,}
+```sudo cp /var/www/html/dokuwiki/.htaccess{.dist,}
+```
+
 Cambia los permisos del sitio web de dokuwiki:
-sudo chown -R www-data: /var/www/html/dokuwiki
+```sudo chown -R www-data: /var/www/html/dokuwiki
+```
 Comprueba que la nueva configuración de Apache es correcta:
 apache2ctl -t
 Si la salida del comando es Syntax OK, está correcto.
