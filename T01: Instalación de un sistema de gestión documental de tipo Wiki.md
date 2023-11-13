@@ -125,8 +125,8 @@ Parte 2: Generación de contenido y administración del sitio web
 5. Instala un plugin de CAPTCHA. Configúralo para que cuando un usuario se conecte a la wiki con usuario y contraseña, le pida además que resuelva una sencilla _operación matemática_.
 
 Entrega
-* Parte 1: Adjunta varias capturas del proceso de instalación.
-* Parte 2:
+- Parte 1: Adjunta varias capturas del proceso de instalación.
+- Parte 2:
  - URL de tu página
  - Capturas del contenido del wiki (página principal y algún personaje, plantilla utilizada en Parámetros de Configuración, usuario creado y configuración del plugin.
 
