@@ -18,4 +18,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+[markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 ![image](https://github.com/theintrokey/theintrokey/assets/15022199/33eea187-b876-44f9-ac8e-4a72d7c74b77)
