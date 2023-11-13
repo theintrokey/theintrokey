@@ -54,42 +54,44 @@ Copia en el fichero el siguiente contenido:
 </VirtualHost>
 ```
 
-En ServerName debes poner el nombre de tu servidor (el que devuelve el comando hostname).Guarda el fichero y sal del editor nano.
+__En ServerName debes poner el nombre de tu servidor__ (el que devuelve el comando hostname).
 
-Renombra los ficheros .htaccess de la web de dokuwiki:
-```
-sudo cp /var/www/html/dokuwiki/.htaccess{.dist,}
-```
-
-Cambia los permisos del sitio web de dokuwiki:
-```
-sudo chown -R www-data: /var/www/html/dokuwiki
-```
-Comprueba que la nueva configuración de Apache es correcta:
-```
-apache2ctl -t
-```
-Si la salida del comando es Syntax OK, está correcto.
-
-Desahabilita el sitio web por defecto de Apache:
-```
-sudo a2dissite 000-default.conf
-```
-
-Habilita el sitio web de Dokuwiki:
-```
-sudo a2ensite dokuwiki.conf
-```
-
-Reinicia el servicio de Apache:
-```
-sudo systemctl reload apache2
-```
-
-Comprueba el estado del servicio de Apache:
-```
-sudo systemctl status apache2
-```
+>- Guarda el fichero y sal del editor nano.
+>
+>- Renombra los ficheros .htaccess de la web de dokuwiki:
+>```
+>sudo cp /var/www/html/dokuwiki/.htaccess{.dist,}
+>```
+>
+>- Cambia los permisos del sitio web de dokuwiki:
+>```
+>sudo chown -R www-data: /var/www/html/dokuwiki
+>```
+>- Comprueba que la nueva configuración de Apache es correcta:
+>```
+>apache2ctl -t
+>```
+>- Si la salida del comando es Syntax OK, está correcto.
+>
+>- Desahabilita el sitio web por defecto de Apache:
+>```
+>sudo a2dissite 000-default.conf
+>```
+>
+>- Habilita el sitio web de Dokuwiki:
+>```
+>sudo a2ensite dokuwiki.conf
+>```
+>
+>- Reinicia el servicio de Apache:
+>```
+>sudo systemctl reload apache2
+>```
+>
+>- Comprueba el estado del servicio de Apache:
+>```
+>sudo systemctl status apache2
+>```
 
 ### 4. Completa la instalación de DokuWiki mediante su interfaz web:
 
