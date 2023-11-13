@@ -36,6 +36,7 @@ Copia en el fichero el siguiente contenido:
 <VirtualHost *:80>
  ServerName smrserverjcm
  DocumentRoot /var/www/html/dokuwiki
+
  <Directory ~ "/var/www/html/dokuwiki/(bin/|conf/|data/|inc/)">
   <IfModule mod_authz_core.c>
    AllowOverride All
@@ -46,8 +47,10 @@ Copia en el fichero el siguiente contenido:
    Deny from all
   </IfModule>
  </Directory>
+
  ErrorLog /var/log/apache2/dokuwiki_error.log
  CustomLog /var/log/apache2/dokuwiki_access.log combined
+
 </VirtualHost>
 ```
 
