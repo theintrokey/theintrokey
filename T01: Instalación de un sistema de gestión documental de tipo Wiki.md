@@ -115,7 +115,7 @@ Parte 2: Generación de contenido y administración del sitio web
 1. El contenido versará sobre la serie ‘Stranger Things’. La estructura del wiki debe ser la siguiente:
 
 ◦ La <ins>página de comienzo</ins> debe tener como título: “Stranger Things”, y debajo una descripción con el argumento de la serie
-◦ A continuación debe aparecer un título “Personajes principales”, y debajo una lista de tipo viñeta con los principales personajes de Stranger Things (no es necesario que pongas todos los personajes, sólo los que te parezcan más importantes o te
+◦ A continuación debe aparecer un título “Personajes principales”, y debajo una lista de tipo viñeta con los <u>principales personajes de Stranger Things</u> (no es necesario que pongas todos los personajes, sólo los que te parezcan más importantes o te
 gusten más) . Cada elemento de la lista será un enlace a una nueva página de la wiki a la descripción de cada personaje.
 ◦ En las páginas de los personajes, debe aparecer como título el nombre del personaje, una foto, y una breve descripción del mismo. Al final de la página debe haber un enlace para volver a la página principal.
 ◦ Añade una barra lateral (sidebar) para poder navegar por los distintos personajes.
