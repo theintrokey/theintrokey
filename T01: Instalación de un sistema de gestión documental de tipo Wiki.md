@@ -1,6 +1,6 @@
 # T01: Instalación de un sistema de gestión documental de tipo Wiki
 
-DokuWiki es un sistema de Wiki de uso sencillo, orientado a crear documentación de
+__DokuWiki__ es un sistema de Wiki de uso sencillo, orientado a crear documentación de
 cualquier tipo dentro de grupos de desarrollo, grupos de trabajo y pequeñas empresas. Su
 sintaxis es simple y potente, facilita la creación de textos estructurados, y permite que los
 archivos generados sean legibles incluso fuera del Wiki. Todos los datos se guardan en
@@ -98,37 +98,38 @@ http://tuservidor.westeurope.cloudapp.azure.com/install.php
 Siendo tuservidor el nombre de dominio de tu máquina de Azure.
 
 Realiza la configuración inicial:
-◦ Nombre del Wiki: “Wiki de Nombre, Apellidos” (pon ahí tu nombre).
-◦ Crear un superusuario y dale una contraseña segura (¡y recuérdala!)
-◦ Puedes inventarte el email si no quieres poner uno real (de todas maneras es tu máquina virtual personal)
-◦ Selecciona un tipo de wiki en el cual los usuarios públicos puedan leer pero sólo los usuarios registrados puedan escribir.
-◦ No permitas que los usuarios se autoregistren.
-◦ El tipo de licencia puedes dejarlo tal cual.
+>- Nombre del Wiki: “Wiki de Nombre, Apellidos” (pon ahí tu nombre).
+>- Crear un superusuario y dale una contraseña segura (¡y recuérdala!)
+>- Puedes inventarte el email si no quieres poner uno real (de todas maneras es tu máquina virtual personal)
+>- Selecciona un tipo de wiki en el cual los usuarios públicos puedan leer pero sólo los usuarios registrados puedan escribir.
+>- No permitas que los usuarios se autoregistren.
+>- El tipo de licencia puedes dejarlo tal cual.
 
 Una vez realizada la configuración inicial, haz login en dokuwiki con el usuario creado, y entrando en la opción de administración arriba a la derecha de la página (Admin Configuration Settings), puedes cambiar el idioma de la interfaz al que prefieras
 
 ## Parte 2: Generación de contenido y administración del sitio web
 
 ### 1. El **contenido** versará sobre la serie ‘Stranger Things’. La estructura del wiki debe ser la siguiente:
-- La _página de comienzo_ debe tener como título: “Stranger Things”, y debajo una descripción con el argumento de la serie
-- A continuación debe aparecer un título “Personajes principales”, y debajo una lista de tipo viñeta con los _principales personajes de Stranger Things_ (no es necesario que pongas todos los personajes, sólo los que te parezcan más importantes o te gusten más) . Cada elemento de la lista será un enlace a una nueva página de la wiki a la descripción de cada personaje.
-- En las páginas de los personajes, debe aparecer como título el _nombre_ del personaje, una _foto_, y una breve _descripción_ del mismo. Al final de la página debe haber un _enlace_ para volver a la página principal.
-- Añade una _barra lateral_ (sidebar) para poder navegar por los distintos personajes.
+
+>- La __página de comienzo__ debe tener como título: “Stranger Things”, y debajo una descripción con el argumento de la serie
+>- A continuación debe aparecer un título “Personajes principales”, y debajo una lista de tipo viñeta con los _principales personajes de Stranger Things_ (no es necesario que pongas todos los personajes, sólo los que te parezcan más importantes o te gusten más) . Cada elemento de la lista será un enlace a una nueva página de la wiki a la descripción de cada personaje.
+>- En las páginas de los personajes, debe aparecer como título el __nombre__ del personaje, una __foto__, y una breve _descripción_ del mismo. Al final de la página debe haber un __enlace__ para volver a la página principal.
+>- Añade una __barra lateral__ (sidebar) para poder navegar por los distintos personajes.
 
 ### 2. Instala una nueva **plantilla**. 
-Una vez creado el contenido, desde el Administrador de Extensiones busca e instala una plantilla que soporte barra lateral (sidebar). Para aplicar la nueva plantilla, tendrás que indicarlo en los _parámetros de configuración_.
+>Una vez creado el contenido, desde el Administrador de Extensiones busca e instala una plantilla que soporte barra lateral (sidebar). Para aplicar la nueva plantilla, tendrás que indicarlo en los __parámetros de configuración__.
 
 ### 3. Crear un usuario que pertenezca al grupo admin. 
-Facilítale a un compañero dirección de tu máquina ubuntu, el nombre de usuario creado y la contraseña, y pídele que se conecte a tu wiki y _añada una nueva página_ de un personaje que no tengas. Haz tú lo mismo con su wiki.
+>Facilítale a un compañero dirección de tu máquina ubuntu, el nombre de usuario creado y la contraseña, y pídele que se conecte a tu wiki y _añada una nueva página_ de un personaje que no tengas. Haz tú lo mismo con su wiki.
 
 ### 4. Instala un plugin de CAPTCHA. 
-Configúralo para que cuando un usuario se conecte a la wiki con usuario y contraseña, le pida además que resuelva una sencilla _operación matemática_.
+>Configúralo para que cuando un usuario se conecte a la wiki con usuario y contraseña, le pida además que resuelva una sencilla _operación matemática_.
 
-Entrega
-- Parte 1: Adjunta varias capturas del proceso de instalación.
-- Parte 2:
-  - URL de tu página
-  - Capturas del contenido del wiki (página principal y algún personaje, plantilla utilizada en Parámetros de Configuración, usuario creado y configuración del plugin.
+## Entrega
+>- Parte 1: Adjunta varias capturas del proceso de instalación.
+>- Parte 2:
+>  - URL de tu página
+>  - Capturas del contenido del wiki (página principal y algún personaje, plantilla utilizada en Parámetros de Configuración, usuario creado y configuración del plugin.
 
 ![image](https://github.com/theintrokey/theintrokey/assets/15022199/98bafdbb-7d12-445d-a5be-5559bc8cdc4a)
 ![image](https://github.com/theintrokey/theintrokey/assets/15022199/15005043-dac5-416e-9846-b5ad5ba6ee2a)
