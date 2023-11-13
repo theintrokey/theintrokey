@@ -8,12 +8,12 @@ archivos de texto plano, de tal forma que no necesita una base de datos.
 
 ## Parte 1: Instalación de Dokuwiki en tu MV Ubuntu Server de Azure
 
-1. Instala las librerías necesarias de php:
+### 1. Instala las librerías necesarias de php:
 ```
 sudo apt install php-gd php-xml php-json
 ```
 
-2. Descarga e instala dokuwiki:
+### 2. Descarga e instala dokuwiki:
 ```
 wget https://download.dokuwiki.org/src/dokuwiki/dokuwiki-stable.tgz
 sudo mkdir /var/www/html/dokuwiki
@@ -26,7 +26,7 @@ ls -l /var/www/html/dokuwiki
 ```
 
 
-3. Crea un host virtual en Apache:
+### 3. Crea un host virtual en Apache:
 ```
 sudo nano /etc/apache2/sites-available/dokuwiki.conf
 ```
@@ -88,7 +88,7 @@ Comprueba el estado del servicio de Apache:
 sudo systemctl status apache2
 ```
 
-4. Completa la instalación de DokuWiki mediante su interfaz web:
+### 4. Completa la instalación de DokuWiki mediante su interfaz web:
 
 Conéctate desde un navegador a la dirección de tu máquina de Azure:
 ```
@@ -109,17 +109,20 @@ Una vez realizada la configuración inicial, haz login en dokuwiki con el usuari
 
 ## Parte 2: Generación de contenido y administración del sitio web
 
-1. El contenido versará sobre la serie ‘Stranger Things’. La estructura del wiki debe ser la siguiente:
+### 1. El **contenido** versará sobre la serie ‘Stranger Things’. La estructura del wiki debe ser la siguiente:
+- La _página de comienzo_ debe tener como título: “Stranger Things”, y debajo una descripción con el argumento de la serie
+- A continuación debe aparecer un título “Personajes principales”, y debajo una lista de tipo viñeta con los _principales personajes de Stranger Things_ (no es necesario que pongas todos los personajes, sólo los que te parezcan más importantes o te gusten más) . Cada elemento de la lista será un enlace a una nueva página de la wiki a la descripción de cada personaje.
+- En las páginas de los personajes, debe aparecer como título el _nombre_ del personaje, una _foto_, y una breve _descripción_ del mismo. Al final de la página debe haber un _enlace_ para volver a la página principal.
+- Añade una _barra lateral_ (sidebar) para poder navegar por los distintos personajes.
 
+### 2. Instala una nueva **plantilla**. 
+Una vez creado el contenido, desde el Administrador de Extensiones busca e instala una plantilla que soporte barra lateral (sidebar). Para aplicar la nueva plantilla, tendrás que indicarlo en los _parámetros de configuración_.
 
-◦ La _página de comienzo_ debe tener como título: “Stranger Things”, y debajo una descripción con el argumento de la serie
-◦ A continuación debe aparecer un título “Personajes principales”, y debajo una lista de tipo viñeta con los _principales personajes de Stranger Things_ (no es necesario que pongas todos los personajes, sólo los que te parezcan más importantes o te gusten más) . Cada elemento de la lista será un enlace a una nueva página de la wiki a la descripción de cada personaje.
-◦ En las páginas de los personajes, debe aparecer como título el _nombre_ del personaje, una _foto_, y una breve _descripción_ del mismo. Al final de la página debe haber un _enlace_ para volver a la página principal.
-◦ Añade una _barra lateral_ (sidebar) para poder navegar por los distintos personajes.
+### 3. Crear un usuario que pertenezca al grupo admin. 
+Facilítale a un compañero dirección de tu máquina ubuntu, el nombre de usuario creado y la contraseña, y pídele que se conecte a tu wiki y _añada una nueva página_ de un personaje que no tengas. Haz tú lo mismo con su wiki.
 
-3. Instala una nueva **plantilla**. Una vez creado el contenido, desde el Administrador de Extensiones busca e instala una plantilla que soporte barra lateral (sidebar). Para aplicar la nueva plantilla, tendrás que indicarlo en los _parámetros de configuración_.
-4. Crear un usuario que pertenezca al grupo admin. Facilítale a un compañero dirección de tu máquina ubuntu, el nombre de usuario creado y la contraseña, y pídele que se conecte a tu wiki y _añada una nueva página_ de un personaje que no tengas. Haz tú lo mismo con su wiki.
-5. Instala un plugin de CAPTCHA. Configúralo para que cuando un usuario se conecte a la wiki con usuario y contraseña, le pida además que resuelva una sencilla _operación matemática_.
+### 4. Instala un plugin de CAPTCHA. 
+Configúralo para que cuando un usuario se conecte a la wiki con usuario y contraseña, le pida además que resuelva una sencilla _operación matemática_.
 
 Entrega
 - Parte 1: Adjunta varias capturas del proceso de instalación.
