@@ -1,4 +1,4 @@
-T04: Creación de un sitio web con Wordpress: Los Simpson
+# T04: Creación de un sitio web con Wordpress: Los Simpson
 
 En esta práctica necesitarás tener instalado y configurado Wordpress. Debes eliminar el
 contenido existente de prácticas anteriores. Puedes hacerlo manualmente, eliminando
@@ -11,12 +11,9 @@ se valorará el esfuerzo y creatividad si se realiza un diseño más completo y 
 
 Requisitos mínimos:
 
-• Deben crearse los siguientes usuarios, con los perfiles indicados:
-
-  ◦ homer (perfil colaborador)
-  
+- Deben crearse los siguientes usuarios, con los perfiles indicados:
+  - homer (perfil colaborador)
   ◦ bart (perfil autor)
-  
   ◦ lisa (perfil editor)
   
   
