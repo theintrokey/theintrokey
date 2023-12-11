@@ -23,38 +23,32 @@ Simpson (utiliza diferentes usuarios para crearlas, no las hagas todas con el mi
 
 - el sitio web debe tener al menos 5 páginas principales, dos de ellas con subpáginas:
   - Página de Inicio, que se mostrará como pagina home de la web.
--  Página de Entradas, que mostrará automáticamente las entradas aprobadas y
+  -  Página de Entradas, que mostrará automáticamente las entradas aprobadas y
 publicadas en la web.
-
-◦ Página de Personajes, que tendrá al menos 5 subpáginas, cada una con la
+  - Página de Personajes, que tendrá al menos 5 subpáginas, cada una con la
 descripción de un personaje.
-
-◦ Página de Lugares, que tendrá al menos 3 subpáginas, cada una con la descripción
+  - Página de Lugares, que tendrá al menos 3 subpáginas, cada una con la descripción
 de un lugar destacado.
-
-◦ Página Acerca de, que mostrará información del autor del sitio web.
+  - Página Acerca de, que mostrará información del autor del sitio web.
 Aspectos a valorar:
-
-• Creación de usuarios con los perfiles pertinentes (hasta 0,5 ptos).
-
-• Creación de contenido: utilización de entradas, comentarios, categorías y etiquetas
+  - Creación de usuarios con los perfiles pertinentes (hasta 0,5 ptos).
+  - Creación de contenido: utilización de entradas, comentarios, categorías y etiquetas
 (hasta 1,5 ptos).
 
-• Creación de una estructura jerárquica: utilización de páginas y menú (hasta 2 ptos).
+  - Creación de una estructura jerárquica: utilización de páginas y menú (hasta 2 ptos).
 
-• Utilización de elementos multimedia de la biblioteca de medios y/o con enlaces
+  - Utilización de elementos multimedia de la biblioteca de medios y/o con enlaces
 externos en todas las páginas y entradas: imágenes, vídeos incrustados, etc (hasta 0,5
 pto).
 
-Aplicaciones Web
+# Aplicaciones Web
+## UD3: Gestores de Contenidos
 
-UD3: Gestores de Contenidos
-_________________________________________________________
-• Gestión de la apariencia del sitio web: selección de tema, identidad del sitio,
+- *Gestión de la apariencia del sitio web:* selección de tema, identidad del sitio,
 configuración del pie de página con incorporación de widgets, personalización de
 colores, … Cuanto mejor sea el diseño, mayor puntuación (hasta 2 ptos).
 
-• Ajustes de la web: zona horaria, formato personalizado de los enlaces permanentes,
+- **Ajustes de la web:* zona horaria, formato personalizado de los enlaces permanentes,
 reglas para la aprobación de comentarios, permitir registrarse a usuarios
 automáticamente con rol colaborador (hasta 1 pto)
 
