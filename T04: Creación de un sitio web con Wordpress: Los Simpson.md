@@ -44,7 +44,7 @@ pto).
 # Aplicaciones Web
 ## UD3: Gestores de Contenidos
 
-- Gestión de la apariencia del sitio web:* selección de tema, identidad del sitio,
+- *Gestión de la apariencia del sitio web:* selección de tema, identidad del sitio,
 configuración del pie de página con incorporación de widgets, personalización de
 colores, … Cuanto mejor sea el diseño, mayor puntuación (hasta 2 ptos).
 
