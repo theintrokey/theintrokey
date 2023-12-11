@@ -44,22 +44,22 @@ pto).
 # Aplicaciones Web
 ## UD3: Gestores de Contenidos
 
-- *Gestión de la apariencia del sitio web:* selección de tema, identidad del sitio,
+- Gestión de la apariencia del sitio web:* selección de tema, identidad del sitio,
 configuración del pie de página con incorporación de widgets, personalización de
 colores, … Cuanto mejor sea el diseño, mayor puntuación (hasta 2 ptos).
 
-- **Ajustes de la web:* zona horaria, formato personalizado de los enlaces permanentes,
+- *Ajustes de la web:* zona horaria, formato personalizado de los enlaces permanentes,
 reglas para la aprobación de comentarios, permitir registrarse a usuarios
 automáticamente con rol colaborador (hasta 1 pto)
 
-• Utilizar en el sitio web (páginas, header, footer, ...) algunos de los widgets incluidos en
-WordPress: calendario, nube de etiquetas, RSS, listado de páginas, iconos sociales, …
+- *Utilizar en el sitio web (páginas, header, footer, ...) algunos de los widgets incluidos en
+WordPress:* calendario, nube de etiquetas, RSS, listado de páginas, iconos sociales, …
 (hasta 1 pto).
 
-• Instalación, configuración y utilización de algún plugin (comprobador de enlaces,
+- *Instalación, configuración y utilización de algún plugin* (comprobador de enlaces,
 asesor de cookies, ...) (hasta 1 pto).
 
-• Página con la política de privacidad. Puedes utilizar la que crea Wordpress,
+- *Página con la política de privacidad.* Puedes utilizar la que crea Wordpress,
 modificando lo que consideres oportuno, y ponerla como submenú de la opción
 Acerca de (hasta 0,5 ptos)
 
