@@ -13,20 +13,17 @@ Requisitos mínimos:
 
 - Deben crearse los siguientes usuarios, con los perfiles indicados:
   - homer (perfil colaborador)
-  ◦ bart (perfil autor)
-  ◦ lisa (perfil editor)
+  - bart (perfil autor)
+  - lisa (perfil editor)
   
   
-• El sitio web debe disponer al menos de 7 entradas sobre cualquier tema del universo
+- El sitio web debe disponer al menos de 7 entradas sobre cualquier tema del universo
 Simpson (utiliza diferentes usuarios para crearlas, no las hagas todas con el mismo)
+  - Debes añadir comentarios en al menos tres de ellas
 
-◦ Debes añadir comentarios en al menos tres de ellas
-
-• El sitio web debe tener al menos 5 páginas principales, dos de ellas con subpáginas:
-
-◦ Página de Inicio, que se mostrará como pagina home de la web.
-
-◦ Página de Entradas, que mostrará automáticamente las entradas aprobadas y
+- el sitio web debe tener al menos 5 páginas principales, dos de ellas con subpáginas:
+  - Página de Inicio, que se mostrará como pagina home de la web.
+-  Página de Entradas, que mostrará automáticamente las entradas aprobadas y
 publicadas en la web.
 
 ◦ Página de Personajes, que tendrá al menos 5 subpáginas, cada una con la
