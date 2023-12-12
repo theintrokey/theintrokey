@@ -1,8 +1,8 @@
 CASO PRÁCTICO 1
 
-9. Gastos compartidos
+Gastos compartidos
 
-9.1. Enunciado del problema
+1. Enunciado del problema
 
 Un grupo de amigos quieren repartir equitativamente los gastos ocasionados por los distintos eventos que realizan a lo largo del tiempo, y para ello desean crear una base de datos que gestione todos los gastos realizados por el grupo. La información a extraer para la base de datos se obtiene de los siguientes supuestos:
 
@@ -32,3 +32,4 @@ El Diagrama Entidad Relación (DER) no puede recoger el supuesto S4:
 3.1 Análisis de las relaciones resultantes.
 
 4. Implementación
+4.1 Creación de la base de datos
