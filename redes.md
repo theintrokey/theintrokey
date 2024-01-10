@@ -89,16 +89,86 @@ La administración centralizada reduce la cantidad de personas que se necesitan 
 El procesamiento de datos se puede distribuir en muchas PC para evitar que una PC se sobrecargue con tareas de procesamiento.
 
 
-6.1.1.3 Actividad: Ventajas y desventajas de networking
-6.2 Identificación de redes
-6.2.1 Tipos de redes
-6.2.1.1 Redes LAN
-6.2.1.2 Redes WLAN
-6.2.1.3 Redes PAN
-6.2.1.4 Redes MAN
-6.2.1.5 Redes WAN
-6.2.1.6 Redes punto a punto
-6.2.1.7 Redes cliente/servidor
+### 6.1.1.3 Actividad: Ventajas y desventajas de networking
+
+# 6.2 Identificación de redes
+## 6.2.1 Tipos de redes
+### 6.2.1.1 Redes LAN
+
+Identificación de redes
+Tipos de redes
+Las redes de datos continúan evolucionando en términos de complejidad, uso y diseño. Las redes de computadoras se identifican según las siguientes características específicas:
+
+- El área que cubren.
+- La forma en que se almacenan los datos.
+- La forma en que se administran los recursos.
+- La forma en que se organiza la red.
+- El tipo de dispositivos de networking utilizados.
+- El tipo de medios utilizados para conectar los dispositivos.
+  
+Los distintos tipos de redes reciben diferentes nombres descriptivos. Por lo general, las redes individuales abarcan una única área geográfica y proporcionan servicios y aplicaciones a las personas dentro de una estructura organizativa común. Este tipo de red se denomina “red de área local” (LAN, Local Area Network). Una LAN puede constar de varias redes locales.
+
+Todas las redes locales dentro de una LAN dependen del mismo grupo de control administrativo. Este grupo aplica las políticas de control de acceso y de seguridad de la red. En este contexto, la palabra “local” se refiere a un control local coherente y no a una cercanía física. Es posible que los dispositivos de una LAN estén físicamente cerca, pero esto no constituye un requisito para una LAN.
+
+Una LAN puede ser tan pequeña como una única red local instalada en un hogar o una oficina pequeña. La definición de LAN evolucionó con el tiempo y actualmente incluye redes locales interconectadas compuestas por centenares de dispositivos instalados en varios edificios y ubicaciones.
+
+
+### 6.2.1.2 Redes WLAN
+
+Identificación de redes
+Tipos de redes
+Una LAN inalámbrica (WLAN, Wireless LAN) es una LAN que utiliza ondas de radio para transmitir datos entre dispositivos inalámbricos. En una LAN tradicional, los dispositivos se conectan entre sí mediante cableado de cobre. En algunos entornos, instalar cableado de cobre puede no ser práctico, conveniente o incluso posible. En esas situaciones, se utilizan dispositivos inalámbricos para transmitir y recibir datos mediante ondas de radio. Al igual que en las redes LAN, en una WLAN puede compartir recursos, como archivos e impresoras, y acceder a Internet.
+
+En las WLAN, los dispositivos inalámbricos se conectan a puntos de acceso dentro de un área específica. Por lo general, los puntos de acceso se conectan a la red mediante cableado de cobre. En lugar de proporcionar cableado de cobre a todos los hosts de la red, solo se conecta a la red el punto de acceso inalámbrico mediante cableado de cobre. El alcance (radio de cobertura) de los sistemas WLAN típicos varía desde menos de 98,4 ft (30 m) en interiores hasta distancias mucho mayores en exteriores, según la tecnología que se utilice.
+
+### 6.2.1.3 Redes PAN
+
+Identificación de redes
+Tipos de redes
+Una red de área personal (PAN, personal area network) es una red que conecta dispositivos, como mouses, teclados, impresoras, smartphones y tablet PC, dentro del alcance de una persona. Todos estos dispositivos están dedicados a un único host y, generalmente, se conectan con tecnología Bluetooth.
+
+Bluetooth es una tecnología inalámbrica que permite la comunicación entre dispositivos que se encuentran a corta distancia entre sí. Un dispositivo Bluetooth puede conectarse con hasta siete dispositivos Bluetooth más. El estándar IEEE 802.15.1 describe esta especificación técnica. Los dispositivos Bluetooth admiten voz y datos. Los dispositivos Bluetooth funcionan en el rango de radiofrecuencia de 2,4 GHz a 2,485 GHz, que se encuentra en la banda industrial, científica y médica (ISM, Industrial, Scientific, and Medical). El estándar Bluetooth incorpora el salto de frecuencia adaptable (AFH, Adaptive Frequency Hopping). El AFH permite que las señales “salten” utilizando distintas frecuencias dentro del rango Bluetooth, lo que reduce la posibilidad de interferencia cuando hay varios dispositivos Bluetooth presentes.
+
+### 6.2.1.4 Redes MAN
+Identificación de redes
+Tipos de redes
+Una red de área metropolitana (MAN, metropolitan area network) es una red que abarca un campus extenso o una ciudad. La red está compuesta por diversos edificios interconectados mediante backbones inalámbricos o de fibra óptica. Por lo general, los enlaces y el equipo de comunicaciones son propiedad de un consorcio de usuarios o de un proveedor de servicios de red que vende el servicio a los usuarios. Una MAN puede funcionar como una red de alta velocidad para permitir el uso compartido de recursos regionales.
+
+### 6.2.1.5 Redes WAN
+Identificación de redes
+Tipos de redes
+Una red de área extensa (WAN) conecta varias redes más pequeñas, como redes LAN, que se encuentran geográficamente separadas. El ejemplo más común de una WAN es Internet. Internet es una gran WAN compuesta por millones de LAN interconectadas. La tecnología WAN también se utiliza para conectar redes corporativas o de investigación. Para interconectar estas LAN situadas en distintas ubicaciones, se utilizan proveedores de servicios de telecomunicaciones.
+
+
+### 6.2.1.6 Redes punto a punto
+
+Identificación de redes
+Tipos de redes
+En una red punto a punto, no hay servidores dedicados ni jerarquía entre las PC. Cada dispositivo, también denominado “cliente”, tiene capacidades y responsabilidades equivalentes. Los usuarios individuales son responsables de sus propios recursos y pueden decidir qué datos y dispositivos compartir o instalar. Dado que los usuarios individuales son responsables de los recursos de sus propias PC, la red no tiene un punto central de control o administración.
+
+Las redes punto a punto funcionan mejor en entornos con diez PC o menos. Las redes punto a punto también pueden existir dentro de redes más grandes. Incluso en una red cliente extensa, los usuarios pueden compartir recursos directamente con otros usuarios sin utilizar un servidor de red. Si tiene más de una PC en el hogar, puede configurar una red punto a punto. Puede compartir archivos con otras PC, enviar mensajes entre PC e imprimir documentos con una impresora compartida.
+
+Las redes punto a punto tienen varias desventajas:
+
+No existe una administración de red centralizada, lo que hace difícil determinar quién controla los recursos en la red.
+No hay seguridad centralizada. Cada PC debe utilizar medidas de seguridad independientes para obtener protección de datos.
+La red se vuelve más compleja y difícil de administrar a medida que aumenta la cantidad de PC en ella.
+Es posible que no haya un almacenamiento de datos centralizado. Se deben mantener copias de seguridad de datos por separado, y dicha responsabilidad recae en los usuarios individuales.
+
+### 6.2.1.7 Redes cliente/servidor
+
+Identificación de redes
+Tipos de redes
+Los servidores tienen software instalado que les permite proporcionar servicios, como correo electrónico o páginas Web, a los clientes. Cada servicio requiere un software de servidor diferente. Por ejemplo, para proporcionar servicios Web a la red, el servidor necesita un software de servidor Web.
+
+En una red cliente/servidor, el cliente solicita información o servicios al servidor. El servidor le proporciona al cliente la información o el servicio que solicitó. Por lo general, los servidores de las redes cliente/servidor realizan parte del trabajo de procesamiento de las máquinas cliente; por ejemplo, revisan una base de datos para enviar solo los registros solicitados por el cliente. Esto permite una administración de red centralizada, lo que hace más sencillo determinar quién controla los recursos en la red. El control de los recursos está a cargo de una administración de red centralizada.
+
+Una PC con software de servidor puede proporcionar servicios a uno o varios clientes simultáneamente. Además, una única PC puede ejecutar varios tipos de software de servidor. En una empresa doméstica o una pequeña empresa, puede ser necesario que una PC funcione como servidor de archivos, servidor Web y servidor de correo electrónico. En un entorno corporativo, los empleados pueden acceder a una única PC que funciona como servidor de correo electrónico en la compañía. El servidor de correo electrónico se utiliza solo para enviar, recibir y almacenar correos electrónicos. El cliente de correo electrónico en la PC de un empleado emite una solicitud al servidor de correo electrónico para obtener los mensajes de correo electrónico no leídos. El servidor responde enviando al cliente el correo electrónico solicitado.
+
+Una única PC también puede ejecutar varios tipos de software de cliente. Debe haber un software de cliente para cada servicio requerido. Si en un cliente hay varios softwares de cliente instalados, puede conectarse a varios servidores al mismo tiempo. Por ejemplo, un usuario puede revisar su correo electrónico y ver una página Web mientras utiliza el servicio de mensajería instantánea y escucha la radio a través de Internet.
+
+Los modelos cliente/servidor hacen que sea sencillo determinar quién controla los recursos en la red al proporcionar una administración de red central. El administrador de red realiza copias de seguridad de datos e implementa medidas de seguridad. El administrador de red también controla el acceso de los usuarios a los recursos de red. Todos los datos en la red se almacenan en un servidor de archivos centralizado. Un servidor de impresión centralizado administra las impresoras compartidas en la red. Cada usuario debe proporcionar un nombre de usuario y contraseña autorizados para obtener acceso a los recursos de red que tiene permitido usar.
+
 6.2.1.8 Actividad: Correspondencia de los tipos de red
 6.3 Tecnologías y conceptos básicos de networking
 6.3.1 Flujo de datos
