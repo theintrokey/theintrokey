@@ -290,9 +290,9 @@ Los modelos cliente/servidor hacen que sea sencillo determinar quién controla l
 6.11.2 Problemas y soluciones comunes de las redes
 6.11.2.1 Identificación de problemas y soluciones comunes
 
-6.12 Redes
-6.12.1 Resumen
-6.12.1.1 Resumen
+# 6.12 Redes
+## 6.12.1 Resumen
+### 6.12.1.1 Resumen
 
 Redes
 Resumen
