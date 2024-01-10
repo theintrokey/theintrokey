@@ -136,6 +136,34 @@
 6.11.1.6 Registro de hallazgos, acciones y resultados
 6.11.2 Problemas y soluciones comunes de las redes
 6.11.2.1 Identificación de problemas y soluciones comunes
+
 6.12 Redes
 6.12.1 Resumen
 6.12.1.1 Resumen
+
+Redes
+Resumen
+En este capítulo, se presentaron los principios básicos de networking, los beneficios de contar con una red, las formas de conectar PC a una red, y la planificación, la implementación y la actualización de redes y componentes de red. Se analizaron los distintos aspectos de la resolución de problemas de una red con ejemplos de cómo analizar e implementar soluciones simples. Es importante recordar los siguientes conceptos de este capítulo:
+
+- Una red de computadoras consta de dos o más PC que comparten datos y recursos.
+- Existen varios tipos distintos de red denominados LAN, WLAN, PAN, MAN y WAN.
+- En una red punto a punto, los dispositivos se conectan directamente entre sí. Las redes punto a punto son fáciles de instalar, y no se necesitan equipos adicionales o un administrador dedicado. Los usuarios controlan sus propios recursos, y la red funciona mejor con pocas PC. Las redes cliente/servidor utilizan un sistema dedicado que funciona como el servidor. El servidor responde a las solicitudes que realizan los usuarios o los clientes conectados a la red.
+- La topología de la red define la forma en que se conectan las PC, las impresoras y otros dispositivos. La topología física describe la disposición del cable y los dispositivos, así como las rutas utilizadas para la transmisión de datos.
+- a topología lógica es la ruta que recorren las señales desde un punto hasta otro. Las topologías incluyen topología de bus, en estrella, en anillo, de malla e híbrida.
+- Los dispositivos de networking se utilizan para conectar PC y dispositivos periféricos de modo que puedan comunicarse. Entre ellos se incluyen hubs, puentes, switches, routers y dispositivos multipropósito. El tipo de dispositivo implementado depende del tipo de red.
+- Los medios de networking pueden definirse como el medio por el cual las señales o los datos se envían de una PC a otra. Las señales pueden transmitirse por cable o por medios inalámbricos. Los tipos de medios que se analizaron fueron el cableado coaxial, de par trenzado, de fibra óptica y las radiofrecuencias.
+- Actualmente, la arquitectura de Ethernet es el tipo de arquitectura LAN más popular. La arquitectura se refiere a la estructura general de un sistema de computación o de comunicación. Determina las capacidades y limitaciones del sistema. La arquitectura de Ethernet se basa en el estándar IEEE 802.3. El estándar IEEE 802.3 especifica que una red debe implementar el método de control de acceso CSMA/CD.
+- El modelo de referencia OSI es un marco estándar en la industria que divide las funciones de networking en siete capas distintas: aplicación, presentación, sesión, transporte, red, enlace de datos y física. Es importante comprender el propósito de cada capa.
+- La suite de protocolos TCP/IP se convirtió en el estándar predominante para Internet. TCP/IP representa un conjunto de estándares públicos que especifican cómo se intercambian los paquetes de información entre las PC de una o más redes.
+- Una NIC es un dispositivo que se conecta a una motherboard y proporciona puertos para las conexiones del cable de red. Constituye la interfaz de la PC con la LAN.
+- Los recursos se comparten a través de la red cuando las PC pertenecen al mismo grupo de trabajo y al mismo grupo en el hogar.
+- La conectividad de red se puede probar con herramientas CLI como ping, ipconfig, net, tracert y nslookup.
+- Los tres métodos de transmisión para enviar señales a través de canales de datos son simplex, half-duplex y full-duplex. La tecnología de networking full-duplex mejora el rendimiento, debido a que los datos se pueden enviar y recibir al mismo tiempo. La tecnología DSL, de cable, y otras tecnologías de banda ancha, funcionan en modo full-duplex.
+- Se deben realizar tareas de mantenimiento de los dispositivos y medios de red, como los componentes de PC. Es importante limpiar los equipos con regularidad y aplicar un enfoque proactivo para evitar problemas. Repare o reemplace los equipos rotos para evitar el tiempo de inactividad.
+- Muchos riesgos de seguridad se asocian a los entornos, los dispositivos y los medios de red.
+- Tome decisiones con respecto al diseño de red que satisfagan las necesidades de los clientes y que cumplan los objetivos de estos.
+- Seleccione componentes de red que ofrezcan las capacidades y los servicios necesarios para implementar una red según las necesidades del cliente.
+- Planifique las instalaciones de red según los equipos y los servicios necesarios.
+- La actualización de una red puede implicar la necesidad de cableado o equipos adicionales.
+- Evite problemas de red mediante el desarrollo y la implementación de una política integral de mantenimiento preventivo.
+- Al realizar la resolución de problemas de red, escuche lo que le dicen los clientes de modo que pueda formular preguntas abiertas y cerradas que le ayuden a determinar por dónde abordar el problema. Verifique los problemas obvios y pruebe soluciones rápidas antes de elevar el proceso de resolución de problemas.
