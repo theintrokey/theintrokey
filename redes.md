@@ -2,6 +2,15 @@
 6.0 Redes
 6.0.1 Introducción
 6.0.1.1 Introducción
+
+Redes
+Introducción
+En este capítulo, se brinda una descripción general de los principios, estándares y propósitos de las redes.
+
+Se analizan los distintos tipos de topologías, protocolos y modelos lógicos de red, y el hardware necesario para crear una red. Además, en este capítulo se abarcan las actualizaciones de componentes de red, las instalaciones y la configuración de servidores de correo electrónico, la resolución de problemas y el mantenimiento preventivo. También ofrece conocimientos sobre software de red, métodos de comunicación y relaciones de hardware.
+
+Para cumplir con las expectativas y las necesidades de los clientes y los usuarios de red, debe estar familiarizado con las tecnologías de networking. Este capítulo proporciona conocimientos básicos sobre diseño de red y sobre la manera en que algunos componentes afectan el flujo de datos en una red. Estos conocimientos lo ayudarán a resolver problemas de red correctamente.
+
 6.1 Principios de networking
 6.1.1 Redes de computadoras
 6.1.1.1 Definición de redes de computadoras
