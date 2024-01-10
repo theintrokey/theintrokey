@@ -1,7 +1,7 @@
 
-6.0 Redes
-6.0.1 Introducción
-6.0.1.1 Introducción
+# 6.0 Redes
+## 6.0.1 Introducción
+### 6.0.1.1 Introducción
 
 Redes
 Introducción
@@ -14,6 +14,46 @@ Para cumplir con las expectativas y las necesidades de los clientes y los usuari
 6.1 Principios de networking
 6.1.1 Redes de computadoras
 6.1.1.1 Definición de redes de computadoras
+Principios de networking
+Redes de computadoras
+Las redes son sistemas formados por enlaces. Por ejemplo, las calles que conectan grupos de personas crean una red física. Las conexiones con amigos crean una red personal. Los sitios Web que permiten a las personas enlazarse con las páginas de otras personas se denominan “sitios de networking social”.
+
+Las personas utilizan las siguientes redes todos los días:
+
+Sistema de envío de correo
+Sistema telefónico
+Sistema de transporte público
+Red de computadoras corporativa
+Internet
+Las redes comparten información y utilizan diversos métodos para dirigir la forma en que se transmite la información. La información se mueve de un lugar a otro en la red, en ocasiones, por distintos caminos, para llegar al destino correcto. Por ejemplo, el sistema de transporte público es una red similar a una red de computadoras. Los automóviles, los camiones y los demás vehículos son como los mensajes que transitan por la red. Cada conductor define un punto de inicio (PC de origen) y un punto de finalización (PC de destino). Dentro de este sistema, existen reglas, como las señales de parada y los semáforos, que controlan el flujo desde el origen hasta el destino. Las redes de computadoras también utilizan reglas para controlar el flujo de datos entre hosts en una red.
+
+Un host es un dispositivo que envía y recibe información en la red. Algunos dispositivos pueden funcionar como hosts o como dispositivos periféricos. Por ejemplo, una impresora conectada a una computadora portátil que se encuentra en una red actúa como dispositivo periférico. Si la impresora se conecta directamente a la red, actúa como host.
+
+Existen diversos tipos de dispositivos que pueden conectarse a una red:
+
+Computadoras de escritorio
+Computadoras portátiles
+Tablet PC
+Smartphones
+Impresoras
+Servidores de archivos y de impresión
+Consolas de juegos
+Dispositivos domésticos
+Las redes de computadoras se utilizan en empresas, hogares, escuelas y agencias gubernamentales de todo el mundo. Muchas de las redes están conectadas entre sí a través de Internet. Una red puede compartir distintos tipos de recursos y datos:
+
+Servicios, como imprimir y escanear
+Espacio de almacenamiento en dispositivos extraíbles, como discos duros y unidades ópticas
+Aplicaciones, como bases de datos
+Información almacenada en otras PC
+Documentos
+Calendarios, sincronización entre una PC y un smartphone
+Los dispositivos de red se enlazan entre sí mediante distintas conexiones:
+
+Cableado de cobre: utiliza señales eléctricas para transmitir datos entre dispositivos.
+Cableado de fibra óptica: utiliza fibra de vidrio o de plástico para transportar información en forma de pulsos de luz.
+Conexión inalámbrica: utiliza señales de radio, tecnología infrarroja o transmisiones satelitales.
+
+
 6.1.1.2 Características y beneficios
 6.1.1.3 Actividad: Ventajas y desventajas de networking
 6.2 Identificación de redes
