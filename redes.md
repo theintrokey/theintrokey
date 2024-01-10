@@ -11,50 +11,84 @@ Se analizan los distintos tipos de topologías, protocolos y modelos lógicos de
 
 Para cumplir con las expectativas y las necesidades de los clientes y los usuarios de red, debe estar familiarizado con las tecnologías de networking. Este capítulo proporciona conocimientos básicos sobre diseño de red y sobre la manera en que algunos componentes afectan el flujo de datos en una red. Estos conocimientos lo ayudarán a resolver problemas de red correctamente.
 
-6.1 Principios de networking
-6.1.1 Redes de computadoras
-6.1.1.1 Definición de redes de computadoras
+# 6.1 Principios de networking
+## 6.1.1 Redes de computadoras
+### 6.1.1.1 Definición de redes de computadoras
+
 Principios de networking
 Redes de computadoras
 Las redes son sistemas formados por enlaces. Por ejemplo, las calles que conectan grupos de personas crean una red física. Las conexiones con amigos crean una red personal. Los sitios Web que permiten a las personas enlazarse con las páginas de otras personas se denominan “sitios de networking social”.
 
 Las personas utilizan las siguientes redes todos los días:
 
-Sistema de envío de correo
-Sistema telefónico
-Sistema de transporte público
-Red de computadoras corporativa
-Internet
+- Sistema de envío de correo
+- Sistema telefónico
+- Sistema de transporte público
+- Red de computadoras corporativa
+- Internet
+
 Las redes comparten información y utilizan diversos métodos para dirigir la forma en que se transmite la información. La información se mueve de un lugar a otro en la red, en ocasiones, por distintos caminos, para llegar al destino correcto. Por ejemplo, el sistema de transporte público es una red similar a una red de computadoras. Los automóviles, los camiones y los demás vehículos son como los mensajes que transitan por la red. Cada conductor define un punto de inicio (PC de origen) y un punto de finalización (PC de destino). Dentro de este sistema, existen reglas, como las señales de parada y los semáforos, que controlan el flujo desde el origen hasta el destino. Las redes de computadoras también utilizan reglas para controlar el flujo de datos entre hosts en una red.
 
 Un host es un dispositivo que envía y recibe información en la red. Algunos dispositivos pueden funcionar como hosts o como dispositivos periféricos. Por ejemplo, una impresora conectada a una computadora portátil que se encuentra en una red actúa como dispositivo periférico. Si la impresora se conecta directamente a la red, actúa como host.
 
 Existen diversos tipos de dispositivos que pueden conectarse a una red:
 
-Computadoras de escritorio
-Computadoras portátiles
-Tablet PC
-Smartphones
-Impresoras
-Servidores de archivos y de impresión
-Consolas de juegos
-Dispositivos domésticos
+- Computadoras de escritorio
+- Computadoras portátiles
+- Tablet PC
+- Smartphones
+- Impresoras
+- Servidores de archivos y de impresión
+- Consolas de juegos
+- Dispositivos domésticos
+  
 Las redes de computadoras se utilizan en empresas, hogares, escuelas y agencias gubernamentales de todo el mundo. Muchas de las redes están conectadas entre sí a través de Internet. Una red puede compartir distintos tipos de recursos y datos:
 
-Servicios, como imprimir y escanear
-Espacio de almacenamiento en dispositivos extraíbles, como discos duros y unidades ópticas
-Aplicaciones, como bases de datos
-Información almacenada en otras PC
-Documentos
-Calendarios, sincronización entre una PC y un smartphone
+- Servicios, como imprimir y escanear
+- Espacio de almacenamiento en dispositivos extraíbles, como discos duros y unidades ópticas
+- Aplicaciones, como bases de datos
+- Información almacenada en otras PC
+- Documentos
+- Calendarios, sincronización entre una PC y un smartphone
+
 Los dispositivos de red se enlazan entre sí mediante distintas conexiones:
 
-Cableado de cobre: utiliza señales eléctricas para transmitir datos entre dispositivos.
-Cableado de fibra óptica: utiliza fibra de vidrio o de plástico para transportar información en forma de pulsos de luz.
-Conexión inalámbrica: utiliza señales de radio, tecnología infrarroja o transmisiones satelitales.
+- Cableado de cobre: utiliza señales eléctricas para transmitir datos entre dispositivos.
+- Cableado de fibra óptica: utiliza fibra de vidrio o de plástico para transportar información en forma de pulsos de luz.
+- Conexión inalámbrica: utiliza señales de radio, tecnología infrarroja o transmisiones satelitales.
 
 
-6.1.1.2 Características y beneficios
+### 6.1.1.2 Características y beneficios
+
+Principios de networking
+Redes de computadoras
+Los beneficios de conectar PC y otros dispositivos a una red incluyen la reducción de costos y el aumento de la productividad. En una red, se pueden compartir los recursos para reducir la posibilidad de que se dupliquen y se dañen los datos.
+
+**Necesidad de menos dispositivos periféricos**
+
+En la ilustración, se muestra que pueden conectarse muchos dispositivos en una red. No es necesario que cada PC de la red tenga su propia impresora o su propio dispositivo de respaldo. Pueden configurarse varias impresoras en una ubicación central para compartirlas entre los usuarios de la red. Todos los usuarios de la red envían trabajos de impresión a un servidor de impresión central que administra las solicitudes de impresión. El servidor de impresión puede distribuir trabajos de impresión en varias impresoras o poner en cola los trabajos que requieren una impresora específica.
+
+**Aumento de las capacidades de comunicación**
+
+Las redes proporcionan diversas herramientas de colaboración que pueden utilizarse para la comunicación entre los usuarios de una red. Las herramientas de colaboración en línea incluyen el correo electrónico, los foros y chats, la transmisión de voz y video, y la mensajería instantánea. Con estas herramientas, los usuarios pueden comunicarse con amigos, familiares y colegas.
+
+**Prevención de duplicación y daño de archivos**
+
+Los servidores administran los recursos de red. Los servidores almacenan datos y los comparten con los usuarios en una red. Los datos confidenciales pueden protegerse y compartirse con los usuarios que tienen permiso para acceder a esos datos. Se puede utilizar software de rastreo de documentos para evitar que los usuarios sobrescriban o modifiquen archivos a los que otros usuarios acceden de forma simultánea.
+
+**Menor costo de licencias**
+
+Las licencias de las aplicaciones pueden ser costosas para las PC individuales. Muchos proveedores de software ofrecen licencias de sitio para redes, lo que puede reducir notablemente el costo del software. La licencia de sitio permite que un grupo de personas o una organización entera utilicen la aplicación por una única tarifa.
+
+**Administración centralizada**
+
+La administración centralizada reduce la cantidad de personas que se necesitan para administrar los dispositivos y los datos de la red, lo que reduce los tiempos y los costos para la compañía. Los usuarios individuales de la red no necesitan administrar sus propios datos y dispositivos. Un administrador puede controlar los datos, los dispositivos y los permisos de los usuarios de la red. Realizar copias de seguridad de los datos resulta más sencillo, debido a que los datos se almacenan en una ubicación central.
+
+**Conservación de recursos**
+
+El procesamiento de datos se puede distribuir en muchas PC para evitar que una PC se sobrecargue con tareas de procesamiento.
+
+
 6.1.1.3 Actividad: Ventajas y desventajas de networking
 6.2 Identificación de redes
 6.2.1 Tipos de redes
