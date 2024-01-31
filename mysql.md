@@ -6,6 +6,7 @@ requiere de al menos dos argumentos:
 Para que el programa cliente pregunte la contraseña de conexión al usuario,
 deberemos proporcionar adicionalmente el parámetro -p.
 
-'''
 $ mysql -h servidor.misitio.org -u <usuario> -p
-'''
+```
+mysql -h servidor.misitio.org -u <usuario> -p
+```
